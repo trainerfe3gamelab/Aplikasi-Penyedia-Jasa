@@ -8,10 +8,11 @@ app.use(express.json());
 app.use(cors());
 
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "handyman2",
+  host: "educalab.id",
+  user: "GVe584mzfCEyBQRk",
+  password: "brgSTozR87PXBSsA",
+  database: "KuG2lUreWd7VzrVh",
+  port: 3307
 });
 
 db.connect((err) => {
@@ -531,6 +532,6 @@ app.get("/profileAdmin", (req, res) => {
 });
 // End BE tampilan Admin
 
-app.listen(8081, () => {
+app.listen(7574, () => {
   console.log("Server is running on port 8081");
 });
