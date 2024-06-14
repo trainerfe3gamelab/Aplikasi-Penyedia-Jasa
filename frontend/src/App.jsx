@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import About from "./Pages/About";
 import Home from "./Pages/Home";
+import Sitemap from "./Pages/Sitemap";
 import ConsServ from "./Pages/ConsServ";
 import DevServ from "./Pages/DevServ";
 import Career from "./Pages/Careers";
@@ -28,6 +29,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/sitemap" element={<Sitemap />} />
         <Route path="/about" element={<About />} />
         <Route path="/consServ" element={<ConsServ />} />
         <Route path="/devServ" element={<DevServ />} />

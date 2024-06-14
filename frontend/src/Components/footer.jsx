@@ -31,7 +31,7 @@ const Footer = () => {
                             <h1 className='font-bold text-xl sm:text-2xl lg:mb-7'>Informasi</h1>
                             <p className='sm:text-lg md:text-base '><button className='footer' onClick={() => navigate("/careers")}>Careers</button></p>
                             <p className='sm:text-lg md:text-base '><button className='footer' onClick={() => navigate("/faq")}>FaQ</button></p>
-                            <p className='footer sm:text-lg md:text-base '><a href="">Sitemap</a></p>
+                            <p className='sm:text-lg md:text-base '><button className='footer' onClick={() => navigate("/sitemap")}>Sitemap</button></p>
                         </div>
                     </div>  
                 </div>
